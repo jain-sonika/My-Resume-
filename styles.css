@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #87CEEB; /* Sky Blue */
+}
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4682B4; /* Steel Blue */
+    color: #fff;
+    padding: 20px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.section-left,
+.section-right {
+    width: 48%;
+}
+
+.about-me p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+ul.skills {
+    list-style: none;
+    padding: 0;
+}
+
+ul.skills li {
+    background-color: #87CEEB; /* Sky Blue */
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+experience h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+footer {
+    background-color: #4682B4; /* Steel Blue */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
